@@ -41,11 +41,11 @@ public class IT24103858Lab10Q1B{
 
          assert (grade == 'A' && mark >= 75) || 
 
-               (grade == 'B' && mark >= 60 && mark < 74) || 
+               (grade == 'B' && mark >= 60 && mark < 75) || 
 
-               (grade == 'C' && mark >= 50 && mark < 59) || 
+               (grade == 'C' && mark >= 50 && mark < 60) || 
 
-               (grade == 'D' && mark >= 40 && mark < 49) || 
+               (grade == 'D' && mark >= 40 && mark < 50) || 
 
                (grade == 'F' && mark < 40);
          
